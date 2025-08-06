@@ -1,12 +1,28 @@
-# React + Vite
+- Create a Vite + React Application
+- Remove unnecessary code and create a basic app.
+- Install tailwind.css
+- Install daisyUI tailwind CSS plugin
+- Import NavBar component in App.jsx
+- Install react-router
+- Create BrowserRouter -> Routes -> Route = / Body -> RouteChildren
+- Create an Outlet in your Body Component
+- Create a Footer Component
+- Create a Login Page
+- Install axios
+- Install cors - install cors in backend => add middleware to with configurations: origin, credentials: true
+- Whenever we are doing an API call from client we need to pass axios => { withCredentials: true}
+- Install react-redux + @reduxjs/toolkit
+- configureStore => <Provider store={storename}></Provider> enclosing the whole app in App.js => createSlice => add reducer to store
+- Dispatch the response to the created slice using useDispatch() hook
+- Fetch the slice from store using useSelector((store) => store.user) hook inside the functional component
+- Login and see if our data is coming properly in the store
+- NavBar should update as soon as user logs in
+- Refactor the code to create a constants file + create components folder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Body
+    Navbar
+    Route / => Feed
+    Route = /login => Login Page
+    Route = /connections => Connection
+    Route = /profile => Profile
