@@ -18,6 +18,11 @@
 - Login and see if our data is coming properly in the store
 - NavBar should update as soon as user logs in
 - Refactor the code to create a constants file + create components folder
+- We should not be able to access other routes without login
+- If token is not present redirect user to login page
+- Logout
+- Get the feed and add the feed into the store
+- Profile page
 
 
 Body
